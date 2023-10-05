@@ -10,8 +10,7 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+88 Culture] [in capital]",
-            "[-25]% Culture cost of natural border growth [in all cities]"
+            "[scout] units gain the [scouting I] promotion"
         ],
         "policies": [
             {
