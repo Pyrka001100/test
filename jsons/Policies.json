@@ -10,7 +10,7 @@
             "Scientific": 10
         },
         "uniques": [
-             "All newly-trained [scout] units [in all cities] receive the [scouting I] promotion"
+             "[scout] units gain the [scouting I] promotion"
         ],
         "policies": [
             {
