@@ -10,14 +10,13 @@
             "Scientific": 10
         },
         "uniques": [
-             "[Scout] units gain the [Scouting I] promotion"
+            "When conquering an encampment, earn [9999] science"
         ],
         "policies": [
             {
                 "name": "Aristocracy",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[Scout] units gain the [Scouting I] promotion"
                 ],
                 "row": 1,
                 "column": 1
