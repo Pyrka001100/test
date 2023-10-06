@@ -49,7 +49,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                    "[Great Scientist] is earned [+20]% faster"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -58,8 +58,7 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+15]% growth [in all cities]",
-                    "[+2 Food] [in all cities]"
+                    "[+15]% science [in all cities]"
                 ]
             }
         ]
