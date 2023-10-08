@@ -15,7 +15,7 @@
 	},
 	{
 		"name": "Monument",
-		"culture": 992,
+		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
