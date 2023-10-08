@@ -104,7 +104,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "[-90]% Culture cost of natural border growth [in Capitol]"
+                    "[+20]% Culture cost of natural border growth [in all cities]"
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
