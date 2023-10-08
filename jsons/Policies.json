@@ -95,7 +95,7 @@
             {
                 "name": "Republic",
                 "uniques": [
-                    "[+1 Gold, +2 Production] from all [Happiness] buildings"
+                    "[+1 happiness] from all [Happiness] buildings"
                 ],
                 "requires": ["Collective Rule"],
                 "row": 2,
@@ -104,8 +104,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "[+90]% Culture cost of natural border growth [in Capitol]"
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
