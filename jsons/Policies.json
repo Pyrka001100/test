@@ -73,14 +73,13 @@
             "Domination": 20,
             "Scientific": 20
         },
-        "uniques": ["[+1 Culture] [in all cities]"],
+        "uniques": ["[-25]% tile improvement construction time"],
         "policies": [
 
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in capital]",
-                    "Free [Settler] appears"
+                    "[+1 Happiness] [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -88,8 +87,7 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[-25]% tile improvement construction time",
-                    "Free [Worker] appears"
+                    "[+4 Culture] [in all cities with a garrison]"
                 ],
                 "row": 1,
                 "column": 4
@@ -126,7 +124,7 @@
             },
             {
                 "name": "Liberty Complete",
-                "uniques": ["Free Great Person"]
+                "uniques": ["Each city founded increases culture cost of policies [33]% less than normal"]
             }
         ]
     },
