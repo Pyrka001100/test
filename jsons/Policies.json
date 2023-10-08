@@ -104,7 +104,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "[+20]% Culture cost of natural border growth [in all cities]"
+                    "[-90]% Culture cost of natural border growth [in all cities]"
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
