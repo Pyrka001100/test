@@ -107,7 +107,7 @@
                 "column": 3
             },
             {
-                "name": "d2",
+                "name": "e2",
                 "uniques": [
                     "[+3 Production] per [2] population [in all cities]",
                     "[-1 Happiness] per [2] population [in all cities]"
@@ -116,7 +116,7 @@
                 "column": 5
             },
             {
-                "name": "Domination Complete",
+                "name": "domination Complete",
                 "uniques": ["Each city founded increases culture cost of policies [33]% less than normal"]
             }
         ]
