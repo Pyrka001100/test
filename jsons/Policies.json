@@ -104,7 +104,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "[+20]% Culture cost of natural border growth [in all cities with Palace]"
+                    "[-20]% Culture cost of natural border growth [in all cities] with Palace"
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
