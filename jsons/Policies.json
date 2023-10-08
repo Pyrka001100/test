@@ -56,7 +56,7 @@
                 "column": 4
             },
             {
-                "name": "Tradition Complete",
+                "name": "Discovery Complete",
                 "uniques": [
                     "[+15]% science [in all cities]"
                 ]
@@ -121,7 +121,7 @@
                 "column": 5
             },
             {
-                "name": "Liberty Complete",
+                "name": "Domination Complete",
                 "uniques": ["Each city founded increases culture cost of policies [33]% less than normal"]
             }
         ]
