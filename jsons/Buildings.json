@@ -20,7 +20,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured",
-		"[+1 Culture] per [2] population [in this cities]"]
+		"[+1 Culture] per [2] population [in this city]"]
 	},
 	{
 		"name": "Stele",
@@ -32,7 +32,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured",
-		"[+1 Culture] per [2] population [in this cities]"]//"Hidden when religion is disabled"
+		"[+1 Culture] per [2] population [in this city]"]//"Hidden when religion is disabled"
 	},
 	// Column 1
 	{
@@ -503,7 +503,6 @@
 	{
 		"name": "Workshop",
 		"maintenance": 2,
-		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
@@ -515,7 +514,6 @@
 		"uniqueTo": "Iroquois",
 		"cost": 100,
 		"maintenance": 2,
-		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
