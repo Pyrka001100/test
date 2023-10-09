@@ -369,7 +369,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"uniques":["[+1 Gold] per [2] population [in this city]",
-		"[+1 Gold] from every merchant [in this city]"],
+		"[+1 Gold] from every [Merchant] [in this city]"],
 		"requiredTech": "Currency"
 	},
 	{
