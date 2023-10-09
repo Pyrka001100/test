@@ -37,10 +37,7 @@
 	{
 		"name": "city center",
 		"cost": 1,
-		"specialistSlots": {"Merchant": 1},
-		"specialistSlots": {"Scientist": 1},
-		"specialistSlots": {"Enginner": 1},
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Merchant": 1}, {"Scientist": 1}, {"Enginner": 1}, {"Artist": 1},
 	},
 	// Column 1
 	{
