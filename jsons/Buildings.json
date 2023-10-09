@@ -130,7 +130,7 @@
 		"maintenance": 2,
 		"food": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Must have an owned [River] within [2] tiles"]
+		"uniques": ["Must have an owned [River] within [2] tiles","[+1 Food] from [River] tiles [in this city]"]
 		"requiredTech": "The Wheel"
 	},
 	{
@@ -138,8 +138,7 @@
 		"replaces": "Water Mill",
 		"uniqueTo": "Aztecs",
 		"food": 2,
-		"production": 1,
-		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
+		"uniques": ["[+1 Food] from [River] tiles [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
@@ -340,10 +339,9 @@
 	},
 	{
 		"name": "Amphitheater",
-		"culture": 3,
 		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Monument",
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
@@ -362,6 +360,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
+		"uniques":["[+1 Gold] per [2] population [in all cities]"],
 		"requiredTech": "Currency"
 	},
 	{
@@ -372,7 +371,8 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
+		"uniques": ["[+1 Gold] per [2] population [in all cities]",
+			"Provides 1 extra copy of each improved luxury resource near this City",
 			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
