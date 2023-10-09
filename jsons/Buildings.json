@@ -39,7 +39,7 @@
 		"cost": 1,
 		"specialistSlots": {"Merchant": 1, 
 		"Scientist": 1, 
-		"Enginner": 1, 
+		"Engineer": 1, 
 		"Artist": 1,}
 	
 	},
