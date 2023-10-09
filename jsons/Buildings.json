@@ -130,7 +130,7 @@
 		"maintenance": 2,
 		"food": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]"],
+		"uniques": ["Must have an owned [River] within [2] tiles"]
 		"requiredTech": "The Wheel"
 	},
 	{
