@@ -19,8 +19,8 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"],
-		"[+1 culture] per [2] population [in all cities]"
+		"uniques": ["Destroyed when the city is captured",
+		"[+1 culture] per [2] population [in all cities]"]
 	},
 	{
 		"name": "Stele",
@@ -31,7 +31,8 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+		"uniques": ["Destroyed when the city is captured",
+		"[+1 culture] per [2] population [in all cities]"]//"Hidden when religion is disabled"
 	},
 	// Column 1
 	{
