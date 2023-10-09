@@ -41,6 +41,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"specialistSlots": {"Enginner": 1},
 		"specialistSlots": {"Artist": 1},
+	},
 	// Column 1
 	{
 		"name": "Granary",
