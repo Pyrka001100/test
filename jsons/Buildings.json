@@ -80,9 +80,9 @@
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
-			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]"],
+		"uniques":[
+			"[+2 Production] from [Stone] tiles [in this city]",
+			"[+2 Production] from [Marble] tiles [in this city]"],
 		"requiredTech": "Calendar"
 	},
 	{
@@ -105,8 +105,7 @@
 		"replaces": "Library",
 		"uniqueTo": "China",
 		"hurryCostModifier": 25,
-		"gold": 2,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+2 Science] per [3] population [in this city]"],
 		"requiredTech": "Writing"
 	},
 	{
@@ -129,8 +128,7 @@
 	{
 		"name": "Water Mill",
 		"maintenance": 2,
-		"food": 2,
-		"production": 1,
+		"food": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
 		"requiredTech": "The Wheel"
