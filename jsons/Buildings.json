@@ -77,8 +77,6 @@
 	// Column 2
 	{
 		"name": "Stone Works",
-		"happiness": 1,
-		"production": 1,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
