@@ -20,7 +20,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured",
-		"[+1 Culture] per [2] population [in all cities]"]
+		"[+1 Culture] per [2] population [in this cities]"]
 	},
 	{
 		"name": "Stele",
@@ -32,7 +32,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured",
-		"[+1 Culture] per [2] population [in all cities]"]//"Hidden when religion is disabled"
+		"[+1 Culture] per [2] population [in this cities]"]//"Hidden when religion is disabled"
 	},
 	// Column 1
 	{
@@ -360,7 +360,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques":["[+1 Gold] per [2] population [in all cities]"],
+		"uniques":["[+1 Gold] per [2] population [in this city]"],
 		"requiredTech": "Currency"
 	},
 	{
@@ -371,7 +371,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+1 Gold] per [2] population [in all cities]",
+		"uniques": ["[+1 Gold] per [2] population [in this city]",
 			"Provides 1 extra copy of each improved luxury resource near this City",
 			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
