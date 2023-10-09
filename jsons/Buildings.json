@@ -34,6 +34,13 @@
 		"uniques": ["Destroyed when the city is captured",
 		"[+1 Culture] per [2] population [in this city]"]//"Hidden when religion is disabled"
 	},
+	{
+		"name": "city center",
+		"cost": 1,
+		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Scientist": 1},
+		"specialistSlots": {"Enginner": 1},
+		"specialistSlots": {"Artist": 1},
 	// Column 1
 	{
 		"name": "Granary",
