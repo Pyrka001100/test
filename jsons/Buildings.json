@@ -703,7 +703,7 @@
 		"name": "Bank",
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 40},
+		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking",
 		"uniques":["[+1 Gold] from every [Merchant]<in this city>"]
@@ -715,7 +715,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 40},
+		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 		"uniques":["[+1 Gold] from every [Merchant]<in this city>"]
