@@ -20,7 +20,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured",
-		"[+1 Culture] per [2] population [in this city]"]
+		"[+1 Culture] per [3] population [in this city]"]
 	},
 	{
 		"name": "Stele",
@@ -32,7 +32,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured",
-		"[+1 Culture] per [2] population [in this city]"]//"Hidden when religion is disabled"
+		"[+1 Culture] per [3] population [in this city]"]//"Hidden when religion is disabled"
 	},
 	{
 		"name": "city center",
@@ -67,7 +67,7 @@
 		"replaces": "Shrine",
 		"uniqueTo": "The Maya",
 		"faith": 2,
-		"science": 2,
+		"science": 1,
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
@@ -352,7 +352,8 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques":["[+1 Culture] from every [Artist]<in this city>",
+		"Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -381,6 +382,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["[+1 Gold] per [2] population [in this city]",
+			"[+1 Gold] from every [Merchant]<in this city>",
 			"Provides 1 extra copy of each improved luxury resource near this City",
 			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
@@ -406,7 +408,7 @@
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[30]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -514,7 +516,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"production": 15},
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -552,10 +554,11 @@
 		"name": "University",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 33},
+		"percentStatBonus": {"science": 13},
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"uniques": ["[+1 Science] from every [Scientist]<in this city>",
+		"[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -564,11 +567,11 @@
 		"uniqueTo": "Siam",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 33},
+		"percentStatBonus": {"science": 18},
 		"specialistSlots": {"Scientist": 2},
-		"culture": 3,
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"uniques": ["[+1 Science] from every [Scientist]<in this city>",
+		"[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -663,26 +666,26 @@
 	},
 	{
 		"name": "Opera House",
-		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques":["[+1 Culture] from every [Artist]<in this city>",
+		"Destroyed when the city is captured"]
 	},
 	{
 		"name": "Ceilidh Hall",
 		"replaces": "Opera House",
 		"uniqueTo": "Celts",
-		"culture": 4,
-		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
+		"happiness": 1,
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
-		"maintenance": 2,
+		"maintenance": 0,
 		"requiredTech": "Acoustics",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques":["[+1 Culture] from every [Artist]<in this city>",
+		"Destroyed when the city is captured"]
 	},
 	{
 		"name": "Sistine Chapel",
@@ -695,10 +698,9 @@
 	},
 	{
 		"name": "Bank",
-		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 25},
+		"percentStatBonus": {"gold": 40},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
@@ -706,11 +708,10 @@
 		"name": "Satrap's Court",
 		"replaces": "Bank",
 		"uniqueTo": "Persia",
-		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 25},
+		"percentStatBonus": {"gold": 40},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
@@ -719,10 +720,9 @@
 //		"name": "Hanse",
 //		"replaces": "Bank",
 //		"uniqueTo": "Germany",
-//		"gold": 2,
 //		"specialistSlots": {"Merchant": 1},
 //		"hurryCostModifier": 15,
-//		"percentStatBonus": {"gold": 25},
+//		"percentStatBonus": {"gold": 40},
 //		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
 //		"requiredBuilding": "Market",
 //		"requiredTech": "Banking"
