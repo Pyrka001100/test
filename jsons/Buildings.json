@@ -805,7 +805,7 @@
 	},
 	{
 		"name": "Windmill",
-		"percentStatBonus": {"production": 15},
+		"percentStatBonus": {"production": 20},
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
@@ -815,7 +815,7 @@
 		"name": "Coffee House",
 		"replaces": "Windmill",
 		"uniqueTo": "Austria",
-		"percentStatBonus": {"production": 15},
+		"percentStatBonus": {"production": 20},
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
@@ -847,8 +847,8 @@
 	// Column 9
 	{
 		"name": "Museum",
-		"culture": 5,
 		"specialistSlots": {"Artist": 2},
+		"percentStatBonus": {"culture": 10},
 		"requiredBuilding": "Opera House",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
