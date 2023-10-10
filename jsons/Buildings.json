@@ -516,7 +516,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"production": 5},
 		"uniques":["[+1 Production] from every [Engineer]<in this city>"],
 		"requiredTech": "Metal Casting"
 	},
@@ -528,7 +528,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"production": 5},
 		"uniques":["[+1 Production] from every [Engineer]<in this city>",
 		"[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
@@ -806,10 +806,10 @@
 	},
 	{
 		"name": "Windmill",
-		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"production": 5},
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 3,
 		"uniques":["[+1 Production] from every [Engineer]<in this city>"],
 		"requiredTech": "Economics"
 	},
@@ -817,10 +817,10 @@
 		"name": "Coffee House",
 		"replaces": "Windmill",
 		"uniqueTo": "Austria",
-		"percentStatBonus": {"production": 20},
+		"percentStatBonus": {"production": 5},
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 3,
 		"uniques":["[+1 Production] from every [Engineer]<in this city>",
 		"[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
@@ -853,7 +853,7 @@
 		"specialistSlots": {"Artist": 2},
 		"percentStatBonus": {"culture": 10},
 		"requiredBuilding": "Opera House",
-		"maintenance": 3,
+		"maintenance": 4,
 		"hurryCostModifier": 0,
 		"requiredTech": "Archaeology",
 		"uniques": ["Destroyed when the city is captured"]
@@ -871,7 +871,7 @@
 		"name": "Public School",
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "University",
-		"maintenance": 3,
+		"maintenance": 4,
 		"hurryCostModifier": 0,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Scientific Theory"
@@ -879,10 +879,10 @@
 	{
 		"name": "Factory",
 		"cost": 360,
-		"percentStatBonus": {"production": 20},
+		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 2},
 		"requiredBuilding": "Workshop",
-		"maintenance": 3,
+		"maintenance": 4,
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
 		"uniques":["[+1 Production] from every [Engineer]<in this city>"],
@@ -920,7 +920,7 @@
 		"name": "Hospital",
 		"food": 5,
 		"requiredBuilding": "Aqueduct",
-		"maintenance": 2,
+		"maintenance": 4,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology"
 	},
@@ -1008,7 +1008,7 @@
 		"percentStatBonus": {"science": 50},
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Public School",
-		"maintenance": 3,
+		"maintenance": 4,
 		"uniques":["[+1 Science] from every [Scientist]<in this city>"],
 		"requiredTech": "Plastics"
 	},
@@ -1051,8 +1051,7 @@
 	// Column 14
 	{
 		"name": "Solar Plant",
-		"production": 5,
-		"percentStatBonus": {"production": 25},
+		"percentStatBonus": {"production": 30},
 		"requiredBuilding": "Factory",
 		"maintenance": 5,
 		"requiredTech": "Ecology",
@@ -1075,7 +1074,7 @@
 	},
 	{
 		"name": "Nuclear Plant",
-		"percentStatBonus": {"production": 25},
+		"percentStatBonus": {"production": 30},
 		"requiredBuilding": "Factory",
 		"maintenance": 5,
 		"requiredResource": "Uranium",
