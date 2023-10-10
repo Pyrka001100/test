@@ -528,7 +528,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"uniques":"[+1 Production] from every [Engineer]<in this city>"],
+		"uniques":["[+1 Production] from every [Engineer]<in this city>",
 		"[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
