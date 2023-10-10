@@ -516,7 +516,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 15},
+		"percentStatBonus": {"production": 10},
 		"uniques":["[+1 Production] from every [Engineer]<in this city>"],
 		"requiredTech": "Metal Casting"
 	},
@@ -528,6 +528,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
 		"uniques":["[+1 Production] from every [Engineer]<in this city>",
 		"[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
@@ -805,10 +806,11 @@
 	},
 	{
 		"name": "Windmill",
-		"percentStatBonus": {"production": 20},
+		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
+		"uniques":["[+1 Production] from every [Engineer]<in this city>"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -819,7 +821,8 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"uniques":"[+1 Production] from every [Engineer]<in this city>"],
+		"[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -927,6 +930,7 @@
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 15,
+		"uniques":["[+1 Gold] from every [Merchant]<in this city>"],
 		"requiredBuilding": "Bank",
 		"requiredTech": "Electricity"
 	},
@@ -951,8 +955,7 @@
 	},
 	{
 		"name": "Broadcast Tower",
-		"culture": 3,
-		"percentStatBonus": {"culture": 33},
+		"percentStatBonus": {"culture": 38},
 		"requiredBuilding": "Museum",
 		"maintenance": 3,
 		"requiredTech": "Radio",
@@ -1006,6 +1009,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Public School",
 		"maintenance": 3,
+		"uniques":["[+1 Science] from every [Scientist]<in this city>"],
 		"requiredTech": "Plastics"
 	},
 	{
@@ -1048,9 +1052,9 @@
 	{
 		"name": "Solar Plant",
 		"production": 5,
-		"percentStatBonus": {"production": 15},
+		"percentStatBonus": {"production": 25},
 		"requiredBuilding": "Factory",
-		"maintenance": 3,
+		"maintenance": 5,
 		"requiredTech": "Ecology",
 		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>"]
 	},
@@ -1071,10 +1075,9 @@
 	},
 	{
 		"name": "Nuclear Plant",
-		"production": 5,
-		"percentStatBonus": {"production": 15},
+		"percentStatBonus": {"production": 25},
 		"requiredBuilding": "Factory",
-		"maintenance": 3,
+		"maintenance": 5,
 		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
 		"uniques": ["Only available <in cities without a [Solar Plant]>"]
