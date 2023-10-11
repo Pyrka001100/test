@@ -2,6 +2,12 @@
     { 
         "name": "laws origin",
         "era": "Ancient era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 10
     },
     "uniques":[
         "free social policy"],
