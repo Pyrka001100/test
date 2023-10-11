@@ -137,7 +137,6 @@
 	{
 		"name": "Water Mill",
 		"maintenance": 2,
-		"food": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must have an owned [River] within [2] tiles","[+1 Food] from [River] tiles [in this city]"]
 		"requiredTech": "The Wheel"
@@ -146,7 +145,7 @@
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
 		"uniqueTo": "Aztecs",
-		"food": 2,
+		"food": 1,
 		"uniques": ["[+1 Food] from [River] tiles [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
