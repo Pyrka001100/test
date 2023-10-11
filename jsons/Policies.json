@@ -18,8 +18,8 @@
                 "[+3 Culture] [in all cities]"],
             "row":1,
             "column":1,
-        },
-    },
+        }
+    }
     {
         "name": "Discovery",
         "era": "Ancient era",
