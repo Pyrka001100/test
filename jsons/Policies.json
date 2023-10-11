@@ -12,6 +12,13 @@
     "uniques":[
         "free social policy"],
     "policies":[
+{
+            "name": "lo2",
+            "uniques":[
+                "[+3 Faith] [in all cities]"],
+            "row":1,
+            "column":3,
+}
         {
             "name": "lo1",
             "uniques":[
