@@ -19,6 +19,12 @@
             "row":1,
             "column":1,
             
+            {
+                "name": "laws origin complet",
+                "uniques": [
+                    "[+15]% science [in all cities]"
+                ]
+            
         }
     ]
     },
