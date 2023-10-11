@@ -1,6 +1,7 @@
 [
     { 
-        "name": "laws origin"
+        "name": "laws origin",
+        "era": "Ancient era",
     },
     "uniques":[
         "free social policy"],
