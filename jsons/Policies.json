@@ -15,14 +15,16 @@
 {
             "name": "lo2",
             "uniques":[
-                "[+3 Faith] [in all cities]"],
+                "[+3 Faith] [in all cities]",
+                "Only available <before adopting [lo1]>"],
             "row":1,
             "column":3,
 }
         {
             "name": "lo1",
             "uniques":[
-                "[+3 Culture] [in all cities]"],
+                "[+3 Culture] [in all cities]",
+                "Only available <before adopting [lo2]>"],
             "row":1,
             "column":1,
         }
