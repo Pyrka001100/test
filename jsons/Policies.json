@@ -1,41 +1,4 @@
-[
-    "name": "laws origin",
-        "era": "Ancient era",
-        "priorities": {
-            "Neutral": 0,
-            "Cultural": 10,
-            "Diplomatic": 0,
-            "Domination": 0,
-            "Scientific": 10
-        },
-    "uniques":[
-        "free social policy"],
-    "policies":[
-{
-            "name": "lo2",
-            "uniques":[
-                "[+3 Faith] [in all cities]",
-                "Only available <before adopting [lo1]>"],
-            "row":1,
-            "column":3,
-}
-        {
-            "name": "lo1",
-            "uniques":[
-                "[+3 Culture] [in all cities]",
-                "Only available <before adopting [lo2]>"],
-            "row":1,
-            "column":1,
-        }
-            
-            {
-                "name": "laws origin Complete",
-                "uniques": ["[+15]% science [in all cities]"],
-            
-        }
-        ]
-    },
-    {
+[  
     { 
         "name": "laws origin",
         "era": "Ancient era",
