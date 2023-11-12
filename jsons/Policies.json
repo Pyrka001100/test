@@ -34,7 +34,7 @@
 {
             "name": "small council",
             "uniques":[
-                "[+3 Faith] [in all cities]",
+                "Each city founded increases culture cost of policies [-33]% less than normal",
                 "Only available <before adopting [autarch]>"],
             "row":2,
             "column":1,
@@ -42,7 +42,7 @@
 {
             "name": "autarch",
             "uniques":[
-                "[+3 Culture] [in all cities]",
+                "[+1 Happiness] [in capital]",
                 "Only available <before adopting [small council]>"],
             "row":2,
             "column":3,
@@ -50,7 +50,7 @@
 {
             "name": "aristocracy",
             "uniques":[
-                "[+3 Faith] [in all cities]",
+                "Only available <after adopting [small council]>",
                 "Only available <before adopting [republic]>"],
             "row":3,
             "column":1,
@@ -59,8 +59,17 @@
             "name": "republic",
             "uniques":[
                 "[+3 Faith] [in all cities]",
+                "Only available <after adopting [small council]>",
                 "Only available <before adopting [aristocracy]>"],
             "row":3,
+            "column":3,
+}
+{
+            "name": "small council",
+            "uniques":[
+                "[+3 Faith] [in all cities]",
+                "Only available <before adopting [lo1]>"],
+            "row":2,
             "column":3,
 }
 {
