@@ -59,7 +59,7 @@
 {
             "name": "republic",
             "uniques":[
-                "[+1happiness] per [8] population [in all cities]",
+                "[+1 Happiness] per [8] population [in all cities]",
                 "Only available <after adopting [small council]>",
                 "Only available <before adopting [aristocracy]>"],
             "row":3,
