@@ -18,7 +18,7 @@
 {
             "name": "natural right",
             "uniques":[
-                "[+3 Faith] [in all cities]",
+                "[+3 Culture] [in all cities]",
                 "Only available <before adopting [divine right]>"],
             "row":1,
             "column":1,
@@ -26,7 +26,7 @@
 {
             "name": "divine right",
             "uniques":[
-                "[+3 Culture] [in all cities]",
+                "[+3 Faith] [in all cities]",
                 "Only available <before adopting [natural right]>"],
             "row":1,
             "column":3,
@@ -42,7 +42,7 @@
 {
             "name": "autarch",
             "uniques":[
-                "[+1 Happiness] [in capital]",
+                "[+5 Happiness] [in capital]",
                 "Only available <before adopting [small council]>"],
             "row":2,
             "column":3,
@@ -50,6 +50,7 @@
 {
             "name": "aristocracy",
             "uniques":[
+                "[+1 Happiness] from every specialist [in all cities]",
                 "Only available <after adopting [small council]>",
                 "Only available <before adopting [republic]>"],
             "row":3,
@@ -58,25 +59,25 @@
 {
             "name": "republic",
             "uniques":[
-                "[+3 Faith] [in all cities]",
+                "[+1happiness] per [8] population [in all cities]",
                 "Only available <after adopting [small council]>",
                 "Only available <before adopting [aristocracy]>"],
             "row":3,
-            "column":3,
+            "column":6,
 }
 {
-            "name": "small council",
+            "name": "monarchy",
             "uniques":[
                 "[+3 Faith] [in all cities]",
-                "Only available <before adopting [lo1]>"],
-            "row":2,
-            "column":3,
+                "Only available <before adopting [aristocracy1]>"],
+            "row":3,
+            "column":9,
 }
 {
-            "name": "small council",
+            "name": "aristocracy1",
             "uniques":[
                 "[+3 Faith] [in all cities]",
-                "Only available <before adopting [lo1]>"],
+                "Only available <before adopting [monarchy]>"],
             "row":2,
             "column":3,
 }
