@@ -48,25 +48,25 @@
             "column":3,
 }
 {
-            "name": "aristocracy",
+            "name": "aristocracy1",
             "uniques":[
                 "[+1 Happiness] from every specialist [in all cities]",
                 "Only available <after adopting [small council]>",
-                "Only available <before adopting [republic]>"],
+                "Only available <before adopting [republic1]>"],
             "row":3,
             "column":1,
 }
 {
-            "name": "republic",
+            "name": "republic1",
             "uniques":[
                 "[+1 Happiness] per [8] population [in all cities]",
                 "Only available <after adopting [small council]>",
-                "Only available <before adopting [aristocracy]>"],
+                "Only available <before adopting [aristocracy1]>"],
             "row":3,
             "column":6,
 }
 {
-            "name": "monarchy",
+            "name": "monarchy1",
             "uniques":[
                 "[+3 Faith] [in all cities]",
                 "Only available <before adopting [aristocracy1]>"],
@@ -77,7 +77,7 @@
             "name": "aristocracy1",
             "uniques":[
                 "[+3 Faith] [in all cities]",
-                "Only available <before adopting [monarchy]>"],
+                "Only available <before adopting [monarchy1]>"],
             "row":2,
             "column":33,
 }
