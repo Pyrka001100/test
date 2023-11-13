@@ -69,12 +69,12 @@
             "name": "monarchy1",
             "uniques":[
                 "[+3 Faith] [in all cities]",
-                "Only available <before adopting [aristocracy1]>"],
+                "Only available <before adopting [aristocracy2]>"],
             "row":3,
             "column":9,
 }
 {
-            "name": "aristocracy1",
+            "name": "aristocracy2",
             "uniques":[
                 "[+3 Faith] [in all cities]",
                 "Only available <before adopting [monarchy1]>"],
