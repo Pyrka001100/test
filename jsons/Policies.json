@@ -69,9 +69,9 @@
 {
             "name": "monarchy1",
             "uniques":[
-                "[+10]% [Culture] [in capitol]",
-                "[+10]% [Faith] [in capitol]",
-                "[+10]% [Science] [in capitol]",
+                "[+10]% [Culture] [in Capitol]",
+                "[+10]% [Faith] [in Capitol]",
+                "[+10]% [Science] [in Capitol]",
                 "Only available <before adopting [aristocracy2]>",
                 "Only available <after adopting [autarch]>"],
             "row":3,
