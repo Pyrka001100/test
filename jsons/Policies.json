@@ -52,6 +52,7 @@
             "uniques":[
                 "[+1 Happiness] [in all cities]",
                 "Only available <after adopting [small council]>",
+                "Only available <after adopting [autarch]>",
                 "Only available <before adopting [republic1]>"],
             "row":3,
             "column":1,
@@ -84,6 +85,42 @@
                 "Only available <after adopting [autarch]>"],
             "row":3,
             "column":12,
+}
+{
+            "name": "democratic republic",
+            "uniques":[
+                "[+1 Happiness] [in all cities]",
+                "Only available <before adopting [1 party state]>",
+                "Only available <after adopting [republic1]>"],
+            "row":4,
+            "column":1,
+}
+{
+            "name": "1 party state",
+            "uniques":[
+                "[+1 Happiness] [in all cities]",
+                "Only available <before adopting [democratic republic]>",
+                "Only available <after adopting [republic1]>"],
+            "row":4,
+            "column":3,
+}
+{
+            "name": "oligarchy1",
+            "uniques":[
+                "[+1 Happiness] [in all cities]",
+                "Only available <before adopting [democratic republic1]>",
+                "Only available <after adopting [aristocracy1]>"],
+            "row":4,
+            "column":12,
+}
+{
+            "name": "democratic repiblic1",
+            "uniques":[
+                "[+1 Happiness] [in all cities]",
+                "Only available <before adopting [oligarchy]>",
+                "Only available <after adopting [aristocracy1]>"],
+            "row":4,
+            "column":15,
 }
             
             {
