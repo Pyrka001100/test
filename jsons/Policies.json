@@ -105,7 +105,7 @@
             "column":3,
 }
 {
-            "name": "oligarchy1",
+            "name": "oligarchy",
             "uniques":[
                 "[+1 Happiness] [in all cities]",
                 "Only available <before adopting [democratic republic1]>",
